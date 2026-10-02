@@ -106,7 +106,7 @@ Cria um novo endpoint de webhook para o customer.
   "id": "6f1a4b2e-0e2a-4e36-9b6a-1a2b3c4d5e6f",
   "customerId": "f3c1...",
   "url": "https://atlas-comercial.example.com/webhooks/orders",
-  "secret": "whsec_8f2e1c6a9b3d4f5e6a7b8c9d0e1f2a3b",
+  "secret": "8f2e1c6a9b3d4f5e6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f",
   "eventTypes": ["SHIPPED", "DELIVERED"],
   "active": true,
   "createdAt": "2026-10-01T12:00:00.000Z"
@@ -201,7 +201,7 @@ Gera uma nova secret para o endpoint; a secret anterior permanece válida por 24
 ```json
 {
   "id": "6f1a4b2e-...",
-  "secret": "whsec_1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d",
+  "secret": "1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b",
   "previousSecretValidUntil": "2026-10-02T12:00:00.000Z"
 }
 ```
